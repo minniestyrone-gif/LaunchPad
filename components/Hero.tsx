@@ -27,9 +27,6 @@ const Hero: React.FC = () => {
       </div>
 
       <div className="max-w-7xl mx-auto w-full text-center relative z-10">
-        {/* Yellow Light Glow */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[60%] w-[600px] h-[300px] bg-yellow-300/30 rounded-full blur-[100px] -z-10 pointer-events-none mix-blend-plus-lighter"></div>
-
         <span className="inline-block py-1 px-3 border border-studio-text/30 rounded-full text-xs font-semibold uppercase tracking-wider mb-6 hover:bg-studio-text hover:text-white transition-all cursor-default">
           New Cohort Open
         </span>
